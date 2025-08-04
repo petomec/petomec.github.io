@@ -1,0 +1,26 @@
+{
+  "name": "petomec.io",
+  "version": "1.0.0",
+  "description": "my online pets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petomec/petomec.github.io.git"
+  },
+  "keywords": [
+    "pets",
+    "tamagochi",
+    "games",
+    "my",
+    "pet"
+  ],
+  "author": "Nurikenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petomec/petomec.github.io/issues"
+  },
+  "homepage": "https://github.com/petomec/petomec.github.io#readme"
+}

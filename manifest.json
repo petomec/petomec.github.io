@@ -1,0 +1,22 @@
+{
+    "name": "Petomec",
+    "short_name": "petOmec",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#1ecaff",
+    "theme_color": "#04233b",
+    "icons": [
+        {
+            "src": "/assets/icons/web-app-manifest-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/assets/icons/web-app-manifest-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
