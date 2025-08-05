@@ -22,14 +22,16 @@
 </head>
 
 <body>
-    <h1>Создать Petomec</h1>
+    <h1>Создать Petomec-a</h1>
 
 
     <br>
 
-    <button type="button" class="nes-btn is-primary">Start</button>
+    <button type="button" id="startBtn" class="nes-btn is-primary">Start</button>
 
-    <script src="/assets/js/app.js"></script>
+    <button type="button" id="feedBtn" class="nes-btn is-primary">Отправить данные</button>
+
+    <script  type="module" src="/assets/js/app.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js')
