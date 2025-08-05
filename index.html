@@ -19,6 +19,20 @@
     <title>Petomec</title>
     <link rel="stylesheet" href="/assets/css/nes.min.css" />
     <link rel="stylesheet" href="/assets/css/app.css" />
+
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+        appId: "7e23d753-f5a8-4617-b3b0-57ede161c6fd",
+        safari_web_id: "web.onesignal.auto.3cd6b41f-0715-4da8-9007-02ca4af2dc44",
+        notifyButton: {
+            enable: true,
+        },
+        });
+    });
+    </script>
 </head>
 
 <body>
